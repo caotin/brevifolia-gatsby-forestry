@@ -1,4 +1,19 @@
 ---
 label: homepage
 hide_body: true
-fields: []
+fields:
+- name: heading_text
+  type: text
+  config:
+    required: false
+  label: Heading text
+- name: heading_image
+  type: file
+  config:
+    maxSize: 64
+  label: heading image
+- name: right_heading_text
+  type: text
+  config:
+    required: false
+  label: Right heading text
