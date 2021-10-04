@@ -1,4 +1,12 @@
 ---
 label: User
 hide_body: false
-fields: []
+fields:
+- name: fullname
+  type: text
+  config:
+    required: false
+  label: Fullname
+- name: gender
+  type: boolean
+  label: Gender
