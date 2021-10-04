@@ -1,0 +1,9 @@
+---
+label: abc
+hide_body: true
+fields:
+- name: aaaa
+  type: text
+  config:
+    required: false
+  label: aaaa
