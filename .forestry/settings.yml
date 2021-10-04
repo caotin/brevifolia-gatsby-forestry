@@ -4,10 +4,13 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: content/hompage
-  label: hompage
-  match: "**/*"
+- type: directory
+  path: ''
+  label: homepage
+  create: none
+  match: "/content/homepage"
+  templates:
+  - homepage
 - type: heading
   label: Content
 - type: directory
