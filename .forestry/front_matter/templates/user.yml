@@ -10,3 +10,5 @@ fields:
 - name: gender
   type: boolean
   label: Gender
+pages:
+- content/user/tin.md
